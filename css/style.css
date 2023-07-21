@@ -333,6 +333,7 @@ color: rgb(185, 185, 185);
   font-size: 22px;
   line-height: 1.4;
   margin-bottom: 20px;
+  font-weight: 200;
 }
 span {
   color: var(--main-color);
