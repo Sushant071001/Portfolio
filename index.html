@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Sushant Patil</title>
+    <link
+      rel="shortcut icon"
+      href="./assets/icons/portfolio.png"
+      type="image/png"
+    />
+    <!-- BOX ICONS LINK -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <!-- GOOGLE FONT LINK -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;600;700&family=Inter:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+
+    <!-- HEADER SECTION -->
+    <header>
+      <a href="#" class="logo">
+        <p class="logo-text">Portfolio</p>
+      </a>
+      <div class="bx bx-menu" id="menu-icon"></div>
+      <ul class="navlist">
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#service">Services</a></li>
+        <li><a href="#project">Projects</a></li>
+      </ul>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="hero">
+      <div class="hero-text">
+        <h3>Hello, I' m</h3>
+        <h1>Sushant Patil</h1>
+        <h4>Fullstack Developer</h4>
+        <a href="#project" class="btn">My Works</a>
+        <a
+          id="downloadLink"
+          style="display: none"
+          href="Sushant_Patil_Resume.pdf"
+          download="Sushant_Patil_Resume.pdf"
+          >Download CV</a
+        >
+        <button onclick="downloadCV()" class="btn">Download CV</button>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="./assets/images/about.png" alt="about" />
+      </div>
+      <div class="about-text">
+        <h2>About Me</h2>
+        <h5>
+          I am 
+          <span>Fullstack Developer</span>
+        </h5>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ut
+          quaerat nobis nisi. Expedita reprehenderit inventore repellat! Iusto
+          nulla quo nam quidem? Eveniet nulla 
+        </p>
+        <a href="#" class="btn">Hire Me</a>
+      </div>
+    </section>
+    <div id="skill">
+      <h1 class="skillHead">My Skills & Tools</h1>
+      <div class="skills flex just-even align-cntr f-wrap">
+        <a href=""><i class='bx bxl-html5' ></i></a>
+        <a href=""><i class='bx bxl-css3' ></i></a>
+        <a href=""><i class='bx bxl-javascript' ></i></a>
+        <a href=""><i class='bx bxl-bootstrap'></i></a>
+        <a href=""><i class='bx bxl-react' ></i></a>
+        <a href=""><i class='bx bxl-redux' ></i></a>
+        <a href=""><i class='bx bxl-java' ></i></a>
+        <a href=""><i class='bx bxl-mongodb'></i></a>
+      </div>
+    </div>
+
+    <!-- SERVICES SECTION -->
+    <section class="service" id="service">
+      <div class="text-center">
+        <h2>My Services</h2>
+        <h4>We work With You, Not for you</h4>
+      </div>
+      <div class="service-item">
+        <div class="service-box">
+          <i class="bx bx-mobile-alt"></i>
+          <h3>Web Design</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia cum
+            rerum magnam necessitatibus, exercitationem doloremque, animi
+          </p>
+          <a href="#" class="s-btn">Read More</a>
+        </div>
+        <div class="service-box">
+          <i class="bx bx-code-alt"></i>
+          <h3>Web Development</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia cum
+            rerum magnam necessitatibus, exercitationem doloremque, animi
+          </p>
+          <a href="#" class="s-btn">Read More</a>
+        </div>
+        <div class="service-box">
+          <i class="bx bx-signal-5"></i>
+          <h3>SEO Design</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia cum
+            rerum magnam necessitatibus, exercitationem doloremque, animi
+          </p>
+          <a href="#" class="s-btn">Read More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section class="project" id="project">
+      <div class="text-center" style="padding-bottom: 30px;">
+        <h2>My Projects</h2>
+      </div>
+      <div class="projects">
+
+        <div class="project-text">
+          <h2>Stack-Overflow Clone</h2>
+          <h5>
+            <span>Photographer and Developer</span>
+          </h5>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ut
+            quaerat nobis nisi. Expedita reprehenderit inventore repellat! Iusto
+            nulla quo nam quidem? Eveniet nulla 
+          </p>
+          <a href="#" class="btn">Live Project</a>
+        </div>
+        <div class="project-img">
+          <img src="./assets/images/image 48.png" alt="about" />
+        </div>
+      </div>
+      <div class="projects" style="padding-top: 50px;">
+
+        <div class="project-text">
+          <h2>Cake Shop</h2>
+          <h5>
+            <span>Photographer and Developer</span>
+          </h5>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ut
+            quaerat nobis nisi. Expedita reprehenderit inventore repellat! Iusto
+            nulla quo nam quidem? Eveniet nulla 
+          </p>
+          <a href="https://diyasapp.web.app" target="_blank" class="btn">Live Project</a>
+        </div>
+        <div class="project-img" style="display: flex;">
+          <img src="./assets/images/cake.jpeg" alt="about"  style="height: 400px; margin-right: 20px;"/>
+          <img src="./assets/images/cake.jpeg" alt="about"  style="height: 400px;"/>
+        </div>
+      </div>
+      <div class="projects" style="padding-top: 50px;">
+
+        <div class="project-text">
+          <h2>Balance App</h2>
+          <h5>
+            <span>Photographer and Developer</span>
+          </h5>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ut
+            quaerat nobis nisi. Expedita reprehenderit inventore repellat! Iusto
+            nulla quo nam quidem? Eveniet nulla 
+          </p>
+          <a href="https://bal-app-bf7c6.web.app/" target="_blank" class="btn">Live Project</a>
+        </div>
+        <div class="project-img" style="display: flex;">
+          <img src="./assets/images/bal1.jpeg" alt="about"  style="height: 400px; margin-right: 20px;"/>
+          <img src="./assets/images/bal2.jpeg" alt="about"  style="height: 400px;"/>
+        </div>
+      </div>
+    </section>
+
+    <!-- END SECTION -->
+    <section class="end-section">
+      <h3>Sushant Patil</h3>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque
+        fugiat voluptates vitae, a perspiciatis suscipit labore odit porro ab?
+        Dolorum?
+      </p>
+      <div class="end-icons">
+        <a href="#"><i class="bx bxl-facebook"></i></a>
+        <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+        <a href="#"><i class="bx bxl-linkedin"></i></a>
+        <a href="#"><i class="bx bxl-twitter"></i></a>
+      </div>
+    </section>
+
+    <!-- LINK SCRIPT FILE -->
+    <script src="./js/script.js"></script>
+
+  </body>
+</html>
